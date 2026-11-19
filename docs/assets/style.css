@@ -760,3 +760,16 @@ details[open] summary:after {
     scroll-behavior:auto
   }
 }
+@media (max-width: 360px) {
+  .site-header {
+    flex-wrap: wrap;
+  }
+  .site-header nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .orbit {
+    max-width: calc(100vw - 32px);
+    max-height: calc(100vw - 32px);
+  }
+}
