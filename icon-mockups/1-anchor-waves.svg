@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E1E1E"/><stop offset="1" stop-color="#0B0B0B"/>
+    </linearGradient>
+    <clipPath id="squircle"><rect width="1024" height="1024" rx="228"/></clipPath>
+
+  </defs>
+  <g clip-path="url(#squircle)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+
+    <path d="M 636.4 206.1 A 150 150 0 0 1 636.4 373.9" fill="none" stroke-linecap="round" stroke="#F4F4F2" stroke-width="34" opacity="0.95"/>
+    <path d="M 387.6 373.9 A 150 150 0 0 1 387.6 206.1" fill="none" stroke-linecap="round" stroke="#F4F4F2" stroke-width="34" opacity="0.95"/>
+    <path d="M 701.0 162.5 A 228 228 0 0 1 701.0 417.5" fill="none" stroke-linecap="round" stroke="#F4F4F2" stroke-width="34" opacity="0.55"/>
+    <path d="M 323.0 417.5 A 228 228 0 0 1 323.0 162.5" fill="none" stroke-linecap="round" stroke="#F4F4F2" stroke-width="34" opacity="0.55"/>
+
+    <g fill="none" stroke="#33BF8C" stroke-width="46.0" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="512.0" cy="290.0" r="56.0"/>
+      <line x1="512.0" y1="346.0" x2="512.0" y2="830.0"/>
+      <line x1="397.0" y1="425.0" x2="627.0" y2="425.0"/>
+      <path d="M 287.0 660.0 Q 297.0 835.0 512.0 845.0 Q 727.0 835.0 737.0 660.0"/>
+    </g>
+    <g fill="#33BF8C">
+      <polygon points="287.0,590.0 230.0,690.0 344.0,690.0"/>
+      <polygon points="737.0,590.0 680.0,690.0 794.0,690.0"/>
+    </g>
+
+  </g>
+</svg>

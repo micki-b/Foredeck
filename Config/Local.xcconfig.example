@@ -1,0 +1,3 @@
+// Copy this file to Local.xcconfig (ignored by Git).
+FOREDECK_BUNDLE_IDENTIFIER = com.yourorganization.Foredeck
+FOREDECK_DEVELOPMENT_TEAM = YOUR_TEAM_ID

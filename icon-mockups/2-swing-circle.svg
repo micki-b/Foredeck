@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E1E1E"/><stop offset="1" stop-color="#0B0B0B"/>
+    </linearGradient>
+    <clipPath id="squircle"><rect width="1024" height="1024" rx="228"/></clipPath>
+
+  </defs>
+  <g clip-path="url(#squircle)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+
+    <circle cx="512" cy="512" r="320" fill="#33BF8C" opacity="0.07"/>
+    <circle cx="512" cy="512" r="320" fill="none" stroke="#33BF8C" stroke-width="20" stroke-dasharray="46 30" stroke-linecap="round"/>
+    <circle cx="252.2" cy="362.0" r="8.0" fill="#F4F4F2" opacity="0.12"/>
+    <circle cx="289.1" cy="311.3" r="9.5" fill="#F4F4F2" opacity="0.19"/>
+    <circle cx="335.7" cy="269.3" r="11.0" fill="#F4F4F2" opacity="0.26"/>
+    <circle cx="390.0" cy="237.9" r="12.5" fill="#F4F4F2" opacity="0.33"/>
+    <circle cx="449.6" cy="218.6" r="14.0" fill="#F4F4F2" opacity="0.40"/>
+    <circle cx="512.0" cy="212.0" r="15.5" fill="#F4F4F2" opacity="0.47"/>
+    <circle cx="574.4" cy="218.6" r="17.0" fill="#F4F4F2" opacity="0.54"/>
+    <circle cx="634.0" cy="237.9" r="18.5" fill="#F4F4F2" opacity="0.61"/>
+    <line x1="512" y1="512" x2="704.8" y2="282.2" stroke="#F4F4F2" stroke-width="8" stroke-dasharray="4 18" stroke-linecap="round" opacity="0.6"/>
+
+    <g fill="none" stroke="#33BF8C" stroke-width="13.8" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="512.0" cy="430.0" r="16.8"/>
+      <line x1="512.0" y1="446.8" x2="512.0" y2="592.0"/>
+      <line x1="477.5" y1="470.5" x2="546.5" y2="470.5"/>
+      <path d="M 444.5 541.0 Q 447.5 593.5 512.0 596.5 Q 576.5 593.5 579.5 541.0"/>
+    </g>
+    <g fill="#33BF8C">
+      <polygon points="444.5,520.0 427.4,550.0 461.6,550.0"/>
+      <polygon points="579.5,520.0 562.4,550.0 596.6,550.0"/>
+    </g>
+    <g transform="translate(704.8 282.2) rotate(220)">
+      <path d="M 0 -105 C 52 -60 58 25 44 92 L -44 92 C -58 25 -52 -60 0 -105 Z" fill="#F4F4F2"/>
+      <rect x="-20" y="-10" width="40" height="55" rx="10" fill="#121212" opacity="0.25"/>
+    </g>
+
+  </g>
+</svg>

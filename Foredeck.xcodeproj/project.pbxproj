@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079B23C37D3DFE555CD967FD /* WireCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9C1BC5E51B0C853A42D63D /* WireCodec.swift */; };
+		2521092F4595D7B9800BB20F /* InviteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F629F0D235B413DC541A2290 /* InviteView.swift */; };
+		2B07EDA81F30F372EA2EE22E /* PairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E17718509186D4A48EE26EE /* PairingView.swift */; };
+		2B636533332057F410390D3D /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC87D43262E8D9F81BA4B5A /* SettingsStore.swift */; };
+		2CFEA25957EC61BEE3F8C109 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF2DB374A3BAE8C33BE87A0 /* LocationProvider.swift */; };
+		45ACB604AAE58A8B755320A2 /* TalkControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D475EA126677E8E776960F8B /* TalkControl.swift */; };
+		4DADBFA1B77597C56DA71C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37AB2281F1CA661674410982 /* Assets.xcassets */; };
+		55926327C6FC04D5AF2A4E31 /* SignalKClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE32BBB4C82E3B03934B5 /* SignalKClient.swift */; };
+		60EB6BE45E3D2EE1F159C391 /* AnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A64EFF3A6D5572D5D7F5BE5 /* AnchorView.swift */; };
+		688C80BC1CEB4CD1BA25B1BF /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ECD1E7B5B8B80829908384 /* AlarmController.swift */; };
+		6DEA146617B784A1FE5DD4A9 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C792429BFCE57CB45C044E3 /* AudioEngine.swift */; };
+		7B784E01DA18B59C2CB9D07C /* PeerAudioSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968EFE9DED03496C35CE1B33 /* PeerAudioSink.swift */; };
+		7D67913B6D8F95EF24A9AB8E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BC2D50819FD00735F4C77 /* SettingsView.swift */; };
+		84768BE7E4B4B46BA1B6C845 /* GeoPoint+MapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB33FAE39B8063A38ACAE0 /* GeoPoint+MapKit.swift */; };
+		A2532C4F9E563556FBDAF5AF /* MultipeerTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37AB16D7E13115D7364A1BC /* MultipeerTransport.swift */; };
+		AB4DA04814C059BE4E7C072E /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EF8C24F3143463000C2EEA /* Keychain.swift */; };
+		B345EF7CC8AB180DFCEE2BC6 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98B57F08A3B83BFD56D459D /* QRCode.swift */; };
+		B9189093C660B690D0FCC2D7 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F70867C3454008685FCFDB /* AppModel.swift */; };
+		BB2ECAE79C0025E6B0148BBC /* ForedeckCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2FC841A22693B75D051239CF /* ForedeckCore */; };
+		C0964B2DA7EC1951C26757BD /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D0C57624707ECD85256A12 /* SessionView.swift */; };
+		C8FA683729E83017120B518C /* ForedeckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46993E0A17730A1B1C1CAAB1 /* ForedeckApp.swift */; };
+		D4C983C9029436A15C9D013D /* DeckStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B6ABD7B8FC4440F60C9B8 /* DeckStyle.swift */; };
+		DBA787462ED9791CA3E72B7C /* BoatStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4014BDB80A96765B33440 /* BoatStore.swift */; };
+		DD847BAC66F507E500357902 /* CrewMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FEE3E05801124802F874AA /* CrewMember.swift */; };
+		FB45FC3B5F97ABE532A39347 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334049E6D3EE4E50A286386E /* RootView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0DECC000000000000000001 /* Build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/Build.xcconfig; sourceTree = SOURCE_ROOT; };
+		025BC2D50819FD00735F4C77 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0A64EFF3A6D5572D5D7F5BE5 /* AnchorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorView.swift; sourceTree = "<group>"; };
+		15C6AAD21D11B3BBB59A1426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1C792429BFCE57CB45C044E3 /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		28CDE32BBB4C82E3B03934B5 /* SignalKClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalKClient.swift; sourceTree = "<group>"; };
+		334049E6D3EE4E50A286386E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		37AB2281F1CA661674410982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46993E0A17730A1B1C1CAAB1 /* ForedeckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForedeckApp.swift; sourceTree = "<group>"; };
+		48DD3EFA99EC8AF4E41B7762 /* Foredeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foredeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F70867C3454008685FCFDB /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		5A9C1BC5E51B0C853A42D63D /* WireCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireCodec.swift; sourceTree = "<group>"; };
+		8D8B6ABD7B8FC4440F60C9B8 /* DeckStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckStyle.swift; sourceTree = "<group>"; };
+		94EF8C24F3143463000C2EEA /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		968EFE9DED03496C35CE1B33 /* PeerAudioSink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerAudioSink.swift; sourceTree = "<group>"; };
+		9E17718509186D4A48EE26EE /* PairingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
+		9EC87D43262E8D9F81BA4B5A /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		ACFB33FAE39B8063A38ACAE0 /* GeoPoint+MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeoPoint+MapKit.swift"; sourceTree = "<group>"; };
+		B37AB16D7E13115D7364A1BC /* MultipeerTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerTransport.swift; sourceTree = "<group>"; };
+		B7D0C57624707ECD85256A12 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		B98B57F08A3B83BFD56D459D /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		BBF2DB374A3BAE8C33BE87A0 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		C3FEE3E05801124802F874AA /* CrewMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMember.swift; sourceTree = "<group>"; };
+		C8C4014BDB80A96765B33440 /* BoatStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatStore.swift; sourceTree = "<group>"; };
+		D475EA126677E8E776960F8B /* TalkControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkControl.swift; sourceTree = "<group>"; };
+		D7ECD1E7B5B8B80829908384 /* AlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmController.swift; sourceTree = "<group>"; };
+		E0C4641DB2734F9CB6E83CF4 /* ForedeckCore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ForedeckCore; sourceTree = SOURCE_ROOT; };
+		F629F0D235B413DC541A2290 /* InviteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F97B527A4A1BB2D8BBAB9065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2ECAE79C0025E6B0148BBC /* ForedeckCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A175D2E125929B6EF07FB24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48DD3EFA99EC8AF4E41B7762 /* Foredeck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DBF252CAB33156D61D5D393 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				B37AB16D7E13115D7364A1BC /* MultipeerTransport.swift */,
+			);
+			path = Transport;
+			sourceTree = "<group>";
+		};
+		650CDF5ADE7DC288D18F345E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A64EFF3A6D5572D5D7F5BE5 /* AnchorView.swift */,
+				8D8B6ABD7B8FC4440F60C9B8 /* DeckStyle.swift */,
+				ACFB33FAE39B8063A38ACAE0 /* GeoPoint+MapKit.swift */,
+				F629F0D235B413DC541A2290 /* InviteView.swift */,
+				9E17718509186D4A48EE26EE /* PairingView.swift */,
+				B98B57F08A3B83BFD56D459D /* QRCode.swift */,
+				334049E6D3EE4E50A286386E /* RootView.swift */,
+				B7D0C57624707ECD85256A12 /* SessionView.swift */,
+				025BC2D50819FD00735F4C77 /* SettingsView.swift */,
+				D475EA126677E8E776960F8B /* TalkControl.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66570472A6AC580AE398EB6F /* SignalK */ = {
+			isa = PBXGroup;
+			children = (
+				28CDE32BBB4C82E3B03934B5 /* SignalKClient.swift */,
+			);
+			path = SignalK;
+			sourceTree = "<group>";
+		};
+		679592B225092BE0AA2DB463 /* Foredeck */ = {
+			isa = PBXGroup;
+			children = (
+				A8ED302744BF9FEBF7A2BE3E /* App */,
+				F8628685698517E7CB6A3556 /* Audio */,
+				92FCE29E33A11581E74479D7 /* Location */,
+				66570472A6AC580AE398EB6F /* SignalK */,
+				4DBF252CAB33156D61D5D393 /* Transport */,
+				650CDF5ADE7DC288D18F345E /* Views */,
+				37AB2281F1CA661674410982 /* Assets.xcassets */,
+				15C6AAD21D11B3BBB59A1426 /* Info.plist */,
+			);
+			path = Foredeck;
+			sourceTree = "<group>";
+		};
+		92FCE29E33A11581E74479D7 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				BBF2DB374A3BAE8C33BE87A0 /* LocationProvider.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		A8ED302744BF9FEBF7A2BE3E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D7ECD1E7B5B8B80829908384 /* AlarmController.swift */,
+				51F70867C3454008685FCFDB /* AppModel.swift */,
+				C8C4014BDB80A96765B33440 /* BoatStore.swift */,
+				C3FEE3E05801124802F874AA /* CrewMember.swift */,
+				46993E0A17730A1B1C1CAAB1 /* ForedeckApp.swift */,
+				94EF8C24F3143463000C2EEA /* Keychain.swift */,
+				9EC87D43262E8D9F81BA4B5A /* SettingsStore.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D14DBC87D9246496531808B5 = {
+			isa = PBXGroup;
+			children = (
+				F0DECC000000000000000001 /* Build.xcconfig */,
+				679592B225092BE0AA2DB463 /* Foredeck */,
+				E29C27D3502B928F3E1FD123 /* Packages */,
+				0A175D2E125929B6EF07FB24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E29C27D3502B928F3E1FD123 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E0C4641DB2734F9CB6E83CF4 /* ForedeckCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		F8628685698517E7CB6A3556 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1C792429BFCE57CB45C044E3 /* AudioEngine.swift */,
+				968EFE9DED03496C35CE1B33 /* PeerAudioSink.swift */,
+				5A9C1BC5E51B0C853A42D63D /* WireCodec.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		305299D5C83E1C6F6C157E7D /* Foredeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150A924880F336B68AF5BE7A /* Build configuration list for PBXNativeTarget "Foredeck" */;
+			buildPhases = (
+				FBB32F3185A11858D8E432DE /* Sources */,
+				A2C723769B36ACDEE27F6BF3 /* Resources */,
+				F97B527A4A1BB2D8BBAB9065 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foredeck;
+			packageProductDependencies = (
+				2FC841A22693B75D051239CF /* ForedeckCore */,
+			);
+			productName = Foredeck;
+			productReference = 48DD3EFA99EC8AF4E41B7762 /* Foredeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE50611B28FCF850411F9081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = CB53B517D4D84D565143BE6E /* Build configuration list for PBXProject "Foredeck" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D14DBC87D9246496531808B5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C78D4D37C950D147FFFBCDB6 /* XCLocalSwiftPackageReference "ForedeckCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0A175D2E125929B6EF07FB24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				305299D5C83E1C6F6C157E7D /* Foredeck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2C723769B36ACDEE27F6BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DADBFA1B77597C56DA71C07 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB32F3185A11858D8E432DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688C80BC1CEB4CD1BA25B1BF /* AlarmController.swift in Sources */,
+				60EB6BE45E3D2EE1F159C391 /* AnchorView.swift in Sources */,
+				B9189093C660B690D0FCC2D7 /* AppModel.swift in Sources */,
+				6DEA146617B784A1FE5DD4A9 /* AudioEngine.swift in Sources */,
+				DBA787462ED9791CA3E72B7C /* BoatStore.swift in Sources */,
+				DD847BAC66F507E500357902 /* CrewMember.swift in Sources */,
+				D4C983C9029436A15C9D013D /* DeckStyle.swift in Sources */,
+				C8FA683729E83017120B518C /* ForedeckApp.swift in Sources */,
+				84768BE7E4B4B46BA1B6C845 /* GeoPoint+MapKit.swift in Sources */,
+				2521092F4595D7B9800BB20F /* InviteView.swift in Sources */,
+				AB4DA04814C059BE4E7C072E /* Keychain.swift in Sources */,
+				2CFEA25957EC61BEE3F8C109 /* LocationProvider.swift in Sources */,
+				A2532C4F9E563556FBDAF5AF /* MultipeerTransport.swift in Sources */,
+				2B07EDA81F30F372EA2EE22E /* PairingView.swift in Sources */,
+				7B784E01DA18B59C2CB9D07C /* PeerAudioSink.swift in Sources */,
+				B345EF7CC8AB180DFCEE2BC6 /* QRCode.swift in Sources */,
+				FB45FC3B5F97ABE532A39347 /* RootView.swift in Sources */,
+				C0964B2DA7EC1951C26757BD /* SessionView.swift in Sources */,
+				2B636533332057F410390D3D /* SettingsStore.swift in Sources */,
+				7D67913B6D8F95EF24A9AB8E /* SettingsView.swift in Sources */,
+				55926327C6FC04D5AF2A4E31 /* SignalKClient.swift in Sources */,
+				45ACB604AAE58A8B755320A2 /* TalkControl.swift in Sources */,
+				079B23C37D3DFE555CD967FD /* WireCodec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2730C958ACC70DD44CB27DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DECC000000000000000001 /* Build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Night";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(FOREDECK_DEVELOPMENT_TEAM)";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = Foredeck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FOREDECK_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = Foredeck;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		41C49D68EA44BF7E288E3B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DECC000000000000000001 /* Build.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "$(FOREDECK_DEVELOPMENT_TEAM)";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C0F7B6D2D5218F58F3F9971B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DECC000000000000000001 /* Build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Night";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(FOREDECK_DEVELOPMENT_TEAM)";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = Foredeck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FOREDECK_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = Foredeck;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C8BD9711DD6F54DAEB35D2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DECC000000000000000001 /* Build.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "$(FOREDECK_DEVELOPMENT_TEAM)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150A924880F336B68AF5BE7A /* Build configuration list for PBXNativeTarget "Foredeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F7B6D2D5218F58F3F9971B /* Debug */,
+				2730C958ACC70DD44CB27DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB53B517D4D84D565143BE6E /* Build configuration list for PBXProject "Foredeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BD9711DD6F54DAEB35D2DB /* Debug */,
+				41C49D68EA44BF7E288E3B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		C78D4D37C950D147FFFBCDB6 /* XCLocalSwiftPackageReference "ForedeckCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ForedeckCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2FC841A22693B75D051239CF /* ForedeckCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ForedeckCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EE50611B28FCF850411F9081 /* Project object */;
+}
