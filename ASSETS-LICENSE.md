@@ -4,7 +4,8 @@ Copyright (c) 2026 micki-b. All rights reserved.
 
 The MIT license in `LICENSE` applies to source code and documentation. It does
 not apply to the Foredeck app icons and preview images in
-`Foredeck/Assets.xcassets`, or the artwork in `icon-mockups/`.
+`Foredeck/Assets.xcassets`, the artwork in `icon-mockups/`, or the app screenshots and branding images in
+`docs/assets/`.
 
 You may use those assets when building and testing this repository locally and
 when contributing to this project. Permission for other distribution of those

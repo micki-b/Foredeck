@@ -1,0 +1,42 @@
+name: Foredeck support
+description: Get help with pairing, audio, the anchor view, or other Foredeck features.
+title: "Support: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This request and all attachments will be public. Do not include personal contact details, boat codes, invitation QR codes, precise locations, or credentials. Redact screenshots before attaching them.
+        For a privacy request, describe it without personal data and ask the maintainer to arrange a private channel if needed. Report security vulnerabilities through private vulnerability reporting instead.
+  - type: input
+    id: device
+    attributes:
+      label: iPhone model and iOS version
+      description: For example, iPhone 17 / iOS 26.5. Do not include a serial number or device identifier.
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Foredeck version
+    validations:
+      required: false
+  - type: dropdown
+    id: topic
+    attributes:
+      label: What do you need help with?
+      options:
+        - Pairing and connection
+        - Audio and microphone
+        - Anchor view and alarms
+        - Signal K
+        - Privacy request
+        - Other question or feedback
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the problem or question
+      description: Tell us what you expected, what happened, and the steps to reproduce it. Include screenshots only after removing private information.
+    validations:
+      required: true

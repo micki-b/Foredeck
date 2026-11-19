@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://micki-b.github.io/Foredeck/sitemap.xml

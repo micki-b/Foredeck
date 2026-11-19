@@ -100,6 +100,20 @@ See [SECURITY.md](SECURITY.md) for private vulnerability reporting. Keep real
 crew invitations, location recordings, signing files, and credentials out of
 issues, screenshots, and commits.
 
+## Website and support
+
+- [Foredeck overview](https://micki-b.github.io/Foredeck/)
+- [Setup, troubleshooting and support](https://micki-b.github.io/Foredeck/support/)
+- [Privacy policy](https://micki-b.github.io/Foredeck/privacy/)
+
+The static website lives in `docs/` and is published by GitHub Pages from the
+`main` branch. It uses no analytics, trackers, JavaScript, or external fonts.
+GitHub support requests are public; never include personal information, boat
+codes, invitation QR codes, precise locations, or credentials.
+
+When the app is released, replace the website's review-status text with the
+verified App Store link. Update the privacy policy when data handling changes.
+
 ## License
 
 Source code and documentation are licensed under [MIT](LICENSE). App icons and
